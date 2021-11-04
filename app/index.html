@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/min.style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@900&family=Montserrat:wght@300;400;500;700&family=Open+Sans&family=Rubik:wght@500&display=swap"
+    rel="stylesheet"
+  >
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <h1 class="logo">Ваши деньги</h1>
+        <div class="location">Россия</div>
+        <p class="header__info">
+          Актуальный рейтинг МФО 2021 года
+        </p>
+      </div>
+    </div>
+  </header>
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <p class="content__info">
+          Увеличьте свои шансы на <span>получение денег</span> - отправляйте сразу <span>несколько заявок</span>
+        </p>
+        <div class="items">
+          <div class="item item-range">
+            <p class="item__config-title">
+              Какой займ вас интересует?
+            </p>
+            <div class="item-range__sum-slider">
+              <p class="item-range__info">
+                Сумма займа:
+                <span id="SelectValue">0</span>
+                руб
+              </p>
+              <div class="item-range__slider">
+                <input type="range" id="input-left" min="0" max="150000" value="0">
+                <input type="range" id="input-right" min="0" max="150000" value="100000">
+                <div class="slider">
+                  <div class="track"></div>
+                  <div class="range"></div>
+                  <div class="thumb left"></div>
+                  <div class="thumb right"></div>
+                </div>
+              </div>
+            </div>
+            <div class="item-range__slider">
+              <p class="item-range__info">
+                Сумма займа:
+                <span id="term-SelectValue">0</span>
+                руб
+              </p>
+              <div class="item-range__term-slider">
+                <input type="range" id="term-input-left" min="0" max="365" value="0">
+                <input type="range" id="term-input-right" min="0" max="365" value="100">
+                <div class="term-slider">
+                  <div class="term-track"></div>
+                  <div class="term-range"></div>
+                  <div class="term-thumb term-left"></div>
+                  <div class="term-thumb term-right"></div>
+                </div>
+              </div>
+            </div>
+            <button class="item-range__btn">Подбор</button>
+          </div>
+          <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+          <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+          <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+           <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+           <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+          <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+          <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+           <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+          <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+          <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+          <div class="item">
+            <img class="item__logo" src="../dist/images/item-logo.png" alt="logo">
+            <h2 class="item__title">
+              ООО МФК «Займер»
+            </h2>
+            <p class="item__data">ОГРН: 1134205019189; Св-во №651303532004088</p>
+            <div class="item__info">
+              <p class="item__info-point">
+                Сумма займа, до
+                <span>100 000 ₽</span>
+              </p>
+              <p class="item__info-point">
+                Ставка
+                <span>200 %</span>
+              </p>
+              <p class="item__info-point">
+                Срок займа
+                <span>365 дней</span>
+              </p>
+              <p class="item__info-point">
+                Возраст
+                <span>от 18 до 47 лет</span>
+              </p>
+            </div>
+            <button class="item__btn">Получить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <p class="footer__info">
+            Все товарные знаки принадлежат их владельцам. Сайт носит исключительно информационный характер и не является публичной
+            офертой. Продолжая, Вы соглашаетесь с использованием файлов cookie. Порядок обработки персональных данных, а также
+            требования к их защите содержатся в <span>Политике конфиденциальности.</span>
+          </p>
+          <div class="footer__communicate">
+            <p class="footer__communicate-age">
+              Сайт для лиц старше 18 лет
+            </p>
+            <p class="footer__communicate-contact-us">
+              Обратная связь
+            </p>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+</html>
