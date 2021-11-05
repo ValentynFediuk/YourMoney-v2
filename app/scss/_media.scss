@@ -27,16 +27,12 @@
     }
   }
 }
-@media (max-width: 820px) {
+@media (max-width: 940px) {
  .items {
     grid-template-columns: 1fr;
-    grid-gap: 0;
   }
   .item {
     margin-bottom: 15px;
-  }
-  .main .container {
-    padding: 0;
   }
 }
 @media (max-width: 750px) {
@@ -78,6 +74,5 @@
   .item {
     padding-left: 10px;
     padding-right: 10px;
-    max-width: 290px;
   }
 }
