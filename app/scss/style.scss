@@ -85,12 +85,13 @@
     &__btn {
       padding: 10px 50px;
       border: 1px solid #2D2D2D;
-      font-size: 18px;
       line-height: 31px;
       background-color: transparent;
       border-radius: 30px;
       display: block;
       margin: 0 auto;
+      font-size: 18px;
+      font-weight: 500;
     }
 }
 .item {
@@ -124,7 +125,7 @@
     text-align: center;
   }
   .item__info {
-    margin-bottom: 20px;
+    margin-bottom: 33px;
     &-point:first-child span {
       color: #E60000;
     }
@@ -155,10 +156,14 @@
     border-radius: 30px;
     border: none;
     line-height: 31px;
+    font-size: inherit;
+    font-weight: inherit;
     padding: 10px 45px;
     display: block;
     margin: 0 auto;
     color: #fff;
+    font-size: 18px;
+    font-weight: 500;
   }
 }
 .term-slider {
